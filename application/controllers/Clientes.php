@@ -15,6 +15,7 @@ class Clientes extends CI_Controller {
         $data['clientes'] = $this->Clientes_model->get_all_clients();
         $this->load->view('templates/sidebar');
         $this->load->view('clientes/index', $data);
+        $this->load->view('templates/footer');
     }
 
     public function create()

@@ -15,6 +15,7 @@ class Usuarios extends CI_Controller {
         $data['usuarios'] = $this->Usuario_model->get_usuarios();
         $this->load->view('templates/sidebar');
         $this->load->view('usuarios/index', $data);
+        $this->load->view('templates/footer');
 
     }
 

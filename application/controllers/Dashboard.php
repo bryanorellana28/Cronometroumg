@@ -15,6 +15,7 @@ class Dashboard extends CI_Controller {
         $data['salas'] = $this->Sala_model->get_all_salas();
         $this->load->view('templates/sidebar');
         $this->load->view('dashboard/index', $data);
+        $this->load->view('templates/footer');
     }
     public function actualizar_estado_sala() {
         $sala_id = $this->input->post('sala_id');

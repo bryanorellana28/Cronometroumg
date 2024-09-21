@@ -14,6 +14,7 @@ class Paquetes extends CI_Controller {
     {
         $data['paquetes'] = $this->Paquetes_model->get_all_paquetes();
         $this->load->view('paquetes/index', $data);
+        $this->load->view('templates/footer');
     }
 
     public function create()
