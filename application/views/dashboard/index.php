@@ -18,7 +18,7 @@
                         <tr>
                             <td><?php echo htmlspecialchars($sala['nombre']); ?></td>
                             <td>
-                                <a href="<?php echo site_url('dashboard/prueba/' . $sala['id']); ?>" class="btn btn-primary" data-toggle="tooltip" title="Ingresar a la sala">
+                                <a href="<?php echo site_url('dashboard/sala/' . $sala['id']); ?>" class="btn btn-primary" data-toggle="tooltip" title="Ingresar a la sala">
                                     <i class="fas fa-sign-in-alt"></i> Ingreso
                                 </a>
                             </td>

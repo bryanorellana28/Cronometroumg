@@ -48,7 +48,7 @@
             <select id="paquete" class="form-control">
                 <?php foreach ($paquetes as $paquete): ?>
                     <option value="<?= $paquete['id']; ?>" data-precio="<?= $paquete['precio_por_hora']; ?>">
-                        <?= $paquete['nombre']; ?> ($<?= $paquete['precio_por_hora']; ?>/hora)
+                        <?= $paquete['nombre']; ?> (Q<?= $paquete['precio_por_hora']; ?>/hora)
                     </option>
                 <?php endforeach; ?>
             </select>
