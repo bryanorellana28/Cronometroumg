@@ -80,8 +80,7 @@
         <input type="button" class="btn btn-info" id="liberar" value="Liberar Sala" onclick="liberarSala();">
     </div>
 
-    <a href="http://127.0.0.1/codeigniter/index.php/dashboard" class="btn btn-secondary mt-3">Regresar</a>
-</div>
+    <a href="<?php echo site_url('dashboard'); ?>" class="btn btn-secondary mt-3">Regresar</a></div>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
